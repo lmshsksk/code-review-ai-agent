@@ -1,0 +1,171 @@
+{
+    "object_kind": "merge_request",
+    "event_type": "merge_request",
+    "user": {
+        "name": "linmingshen",
+        "username": "linmingshen",
+        "avatar_url": "http://gitlab.sh.com/uploads/-/system/user/avatar/126/avatar.png"
+    },
+    "project": {
+        "id": 1199,
+        "name": "x-lab",
+        "description": "前端x-lab实验项目，存放demo等",
+        "web_url": "http://gitlab.sh.com/platform/frontend/x-lab",
+        "avatar_url": null,
+        "git_ssh_url": "git@gitlab.sh.com:platform/frontend/x-lab.git",
+        "git_http_url": "http://gitlab.sh.com/platform/frontend/x-lab.git",
+        "namespace": "frontend",
+        "visibility_level": 0,
+        "path_with_namespace": "platform/frontend/x-lab",
+        "default_branch": "master",
+        "ci_config_path": null,
+        "homepage": "http://gitlab.sh.com/platform/frontend/x-lab",
+        "url": "git@gitlab.sh.com:platform/frontend/x-lab.git",
+        "ssh_url": "git@gitlab.sh.com:platform/frontend/x-lab.git",
+        "http_url": "http://gitlab.sh.com/platform/frontend/x-lab.git"
+    },
+    "object_attributes": {
+        "assignee_id": null,
+        "author_id": 126,
+        "created_at": "2026-02-14 13:41:16 +0800",
+        "description": "",
+        "head_pipeline_id": null,
+        "id": 14770,
+        "iid": 11,
+        "last_edited_at": null,
+        "last_edited_by_id": null,
+        "merge_commit_sha": null,
+        "merge_error": null,
+        "merge_params": {
+            "force_remove_source_branch": "0"
+        },
+        "merge_status": "unchecked",
+        "merge_user_id": null,
+        "merge_when_pipeline_succeeds": false,
+        "milestone_id": null,
+        "source_branch": "1.0.0",
+        "source_project_id": 1199,
+        "state": "opened",
+        "target_branch": "test",
+        "target_project_id": 1199,
+        "time_estimate": 0,
+        "title": "feat: 更新内容 AI-CR测试",
+        "updated_at": "2026-02-14 13:41:16 +0800",
+        "updated_by_id": null,
+        "url": "http://gitlab.sh.com/platform/frontend/x-lab/merge_requests/11",
+        "source": {
+            "id": 1199,
+            "name": "x-lab",
+            "description": "前端x-lab实验项目，存放demo等",
+            "web_url": "http://gitlab.sh.com/platform/frontend/x-lab",
+            "avatar_url": null,
+            "git_ssh_url": "git@gitlab.sh.com:platform/frontend/x-lab.git",
+            "git_http_url": "http://gitlab.sh.com/platform/frontend/x-lab.git",
+            "namespace": "frontend",
+            "visibility_level": 0,
+            "path_with_namespace": "platform/frontend/x-lab",
+            "default_branch": "master",
+            "ci_config_path": null,
+            "homepage": "http://gitlab.sh.com/platform/frontend/x-lab",
+            "url": "git@gitlab.sh.com:platform/frontend/x-lab.git",
+            "ssh_url": "git@gitlab.sh.com:platform/frontend/x-lab.git",
+            "http_url": "http://gitlab.sh.com/platform/frontend/x-lab.git"
+        },
+        "target": {
+            "id": 1199,
+            "name": "x-lab",
+            "description": "前端x-lab实验项目，存放demo等",
+            "web_url": "http://gitlab.sh.com/platform/frontend/x-lab",
+            "avatar_url": null,
+            "git_ssh_url": "git@gitlab.sh.com:platform/frontend/x-lab.git",
+            "git_http_url": "http://gitlab.sh.com/platform/frontend/x-lab.git",
+            "namespace": "frontend",
+            "visibility_level": 0,
+            "path_with_namespace": "platform/frontend/x-lab",
+            "default_branch": "master",
+            "ci_config_path": null,
+            "homepage": "http://gitlab.sh.com/platform/frontend/x-lab",
+            "url": "git@gitlab.sh.com:platform/frontend/x-lab.git",
+            "ssh_url": "git@gitlab.sh.com:platform/frontend/x-lab.git",
+            "http_url": "http://gitlab.sh.com/platform/frontend/x-lab.git"
+        },
+        "last_commit": {
+            "id": "5d983a048aa92ecb9e9e1578cc3b831d033a93ce",
+            "message": "feat: 更新内容\n",
+            "timestamp": "2026-02-14T05:40:38Z",
+            "url": "http://gitlab.sh.com/platform/frontend/x-lab/commit/5d983a048aa92ecb9e9e1578cc3b831d033a93ce",
+            "author": {
+                "name": "linmingshen",
+                "email": "user@163.com"
+            }
+        },
+        "work_in_progress": false,
+        "total_time_spent": 0,
+        "human_total_time_spent": null,
+        "human_time_estimate": null,
+        "action": "open"
+    },
+    "labels": [],
+    "changes": {
+        "author_id": {
+            "previous": null,
+            "current": 126
+        },
+        "created_at": {
+            "previous": null,
+            "current": "2026-02-14 13:41:16 +0800"
+        },
+        "description": {
+            "previous": null,
+            "current": ""
+        },
+        "id": {
+            "previous": null,
+            "current": 14770
+        },
+        "iid": {
+            "previous": null,
+            "current": 11
+        },
+        "merge_params": {
+            "previous": {},
+            "current": {
+                "force_remove_source_branch": "0"
+            }
+        },
+        "source_branch": {
+            "previous": null,
+            "current": "1.0.0"
+        },
+        "source_project_id": {
+            "previous": null,
+            "current": 1199
+        },
+        "target_branch": {
+            "previous": null,
+            "current": "test"
+        },
+        "target_project_id": {
+            "previous": null,
+            "current": 1199
+        },
+        "title": {
+            "previous": null,
+            "current": "feat: 更新内容 AI-CR测试"
+        },
+        "updated_at": {
+            "previous": null,
+            "current": "2026-02-14 13:41:16 +0800"
+        },
+        "total_time_spent": {
+            "previous": null,
+            "current": 0
+        }
+    },
+    "repository": {
+        "name": "x-lab",
+        "url": "git@gitlab.sh.com:platform/frontend/x-lab.git",
+        "description": "前端x-lab实验项目，存放demo等",
+        "homepage": "http://gitlab.sh.com/platform/frontend/x-lab"
+    }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "code-review-js",
+  "version": "1.0.0",
+  "description": "AI CODE review",
+  "main": "src/main.js",
+  "bin": {
+    "code-review-js": "./src/main.js"
+  },
+  "scripts": {
+    "start": "node debug_local.js",
+    "dev": "node -r dotenv/config src/webhook_server.js dotenv_config_path=.env.local",
+    "webhook": "node src/webhook_server.js",
+    "demo:webhook": "node debug_webhook.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ai",
+    "code-review",
+    "gitlab",
+    "ci",
+    "automated-review",
+    "ast-analysis"
+  ],
+  "author": "Lin",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "src/",
+    "system_prompt.txt",
+    "README.md"
+  ],
+  "dependencies": {
+    "@babel/parser": "^7.24.7",
+    "@babel/traverse": "^7.24.7",
+    "@vue/compiler-sfc": "^3.4.31",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "js-yaml": "^4.1.0",
+    "p-limit": "^3.1.0"
+  }
+}
